@@ -1,0 +1,10 @@
+#menulateral{ 
+    flex-direction: column;
+    list-style: none;
+    align-items: flex-end;
+    font-size: 1cm;
+    display: flex;
+}
+li:hover{color: lightskyblue;
+    cursor: pointer;
+    font-size: 12mm}

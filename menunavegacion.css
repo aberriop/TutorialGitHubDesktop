@@ -1,0 +1,16 @@
+#menunavegacion {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: #00008b;
+    color: white ;
+    padding: 1cm;
+    font-size: 10mm;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+li:hover{color: lightskyblue;
+cursor: pointer;
+font-size: 12mm}

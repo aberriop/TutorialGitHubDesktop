@@ -1,0 +1,43 @@
+#body{
+    width: 800px;}
+
+#estiloparrafo1{
+    color:green;
+    font-size: 12mm;
+}
+#estiloparrafo2{
+    color:blue;
+    font-size: 12mm;
+}
+
+table,th, tr, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#estilorojo{
+    color: red;
+    font-weight: bold;
+}
+
+#span1{
+    color:red;
+    font-weight: bold;
+}
+
+#span2{
+    color:orange;
+    font-weight: bold;
+}
+
+#span3{
+    font-style: italic;
+    color:salmon;
+    font-weight: bold;
+}
+#span4{
+    text-decoration: underline;
+    color:purple;
+    font-weight:bold
+
+}

@@ -1,0 +1,9 @@
+#externoherencia
+.body{
+    background-color: brown;
+    font-size: 18px;
+    font-family: Calibri;
+    
+@media all and (max-width: 600px)
+.mark { min-width: 500px}
+    background-color: red;
