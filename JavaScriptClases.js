@@ -46,7 +46,7 @@ const coche2 = new Coche('Kia', 'yellow');
 // Otro ejercicio
 
 class Cuadrado {
-    constructor(lado,){
+    constructor(lado){
         this.area= lado*lado;
         this.perimetro= lado*4;
         }
