@@ -6,12 +6,12 @@ function showKey(event) {
 };
 
 // Añadir a la lista 
-function add(){
+function add() {
     var elemento = document.createElement("li");
 
     elemento.innerHTML = 'JavaScript';
     
     var lista = document.getElementById("lista");
-    
+
     lista.appendChild(elemento);
 }   
