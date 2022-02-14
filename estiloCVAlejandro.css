@@ -1,0 +1,99 @@
+#menunavegacion {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: #181818;
+    color: rgb(252, 252, 252) ;
+    padding: 2mm;
+    font-size: 5mm;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+}
+
+.estiloprofesion{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 7mm;
+}
+
+#container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.estiloTH{
+    font-size: 5mm;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.estiloTD{
+    font-size: 5mm;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.estilotabla1{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.estiloimagen{
+    margin-right: 120px;
+    margin-left: 20px;
+}
+
+.estilocaja{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 5mm;
+    color: rgb(250, 242, 242) ;
+    background-color: #656666;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.estilofecha2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5mm;
+
+}
+
+.estilotextotitulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 6mm;
+}
+
+.estilotextofont{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5mm;
+}
+
+#containerRedes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.btn{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5mm;
+    background-color: black;
+    color: white;
+}
+
