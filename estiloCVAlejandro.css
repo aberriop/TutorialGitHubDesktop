@@ -14,6 +14,12 @@
     
 }
 
+.estiloLI {
+    color: white;
+}
+
+
+
 .estiloprofesion{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
@@ -39,7 +45,7 @@
 
 
 .estilotabla1{
-    margin-top: 80px;
+    margin-top: 10px;
     margin-left: 20px;
 }
 
@@ -96,4 +102,5 @@
     background-color: black;
     color: white;
 }
+
 

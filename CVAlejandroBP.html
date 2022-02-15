@@ -9,21 +9,26 @@
 
     <link rel="stylesheet" href="estiloCVAlejandro.css">
 
+    <style>
+        #more {display: none;}
+    </style>
+
 
 </head>
 
 <body>
     <ul id="menunavegacion">
 
-        <li>SOBRE MÍ</li>
-        <li>EXPERIENCIA LABORAL</li>
-        <li>EDUCACIÓN</li>
-        <li>CONTACTO</li>
+        <li><a class="estiloLI" href="#sobremi" class="scroll-link">SOBRE MÍ</a></li>
+        <li><a class="estiloLI" href="#experiencialaboral" class="scroll-link">EXPERIENCIA LABORAL</a></li>
+        <li><a class="estiloLI" href="#educacion" class="scroll-link">EDUCACIÓN</a></li>
+        <li><a class="estiloLI" href="#contacto" class="scroll-link">CONTACTO</a></li>
 
     </ul>
     <div>
         <div class="estilocaja">
-            <h1>SOBRE MÍ</h1>
+            <section class="section-primary" id="sobremi">
+                <h1>SOBRE MÍ</h1>
         </div>
         <div id="container1">
             <div class="estiloimagen">
@@ -54,12 +59,23 @@
                     </tr>
 
                 </table>
+                <div>
+                    <p><span id="dots">...</span><span id="more" class="estiloTD">
+                        <br></br>
+                        Vehículo propio.
+                        <br></br>
+                    Disponibilidad para viajar.
+                    </span></p>
+                    <button onclick="myFunction()" id="myBtn">Leer más</button>
+
+                </div>
             </div>
         </div>
     </div>
     <div>
         <div class="estilocaja">
-            <h1>EXPERIENCIA LABORAL</h1>
+            <section class="section-primary" id="experiencialaboral">
+                <h1>EXPERIENCIA LABORAL</h1>
         </div>
         <div class="container2">
             <div>
@@ -81,20 +97,21 @@
                 <p class="estilotextotitulo">Técnico biólogo</p>
             </div>
             <div>
-                <p class="estilotextofont">Restauración del hábitat de alimentación natural del buitre negro en España.</p>
+                <p class="estilotextofont">Restauración del hábitat de alimentación natural del buitre negro en España.
+                </p>
             </div>
         </div>
     </div>
 
     <div>
         <div class="estilocaja">
-            <h1>EDUCACIÓN</h1>
+            <section class="section-primary" id="educacion">
+                <h1>EDUCACIÓN</h1>
         </div>
 
         <div class="container2">
             <div>
-                <img width="150" height="150"
-                    src="https://asiseurope.org/wp-content/uploads/esri-logo-EU20Web.jpg"
+                <img width="150" height="150" src="https://asiseurope.org/wp-content/uploads/esri-logo-EU20Web.jpg"
                     alt="Foto">
             </div>
             <div>
@@ -117,8 +134,7 @@
         <div class="container2">
             <div>
                 <img width="150" height="150"
-                    src="https://liu.se/polopoly/KoM/facebookbilder/linkuniv_sigill_facebook_314px.jpg"
-                    alt="Foto">
+                    src="https://liu.se/polopoly/KoM/facebookbilder/linkuniv_sigill_facebook_314px.jpg" alt="Foto">
             </div>
             <div>
                 <p class="estilofecha2">2018 - 2020</p>
@@ -139,8 +155,7 @@
         </div>
         <div class="container2">
             <div>
-                <img width="150" height="150"
-                    src="https://uai.edu.ar/ciiti/2014/rosario/auspiciantes/034.jpg"
+                <img width="150" height="150" src="https://uai.edu.ar/ciiti/2014/rosario/auspiciantes/034.jpg"
                     alt="Foto">
             </div>
             <div>
@@ -166,7 +181,8 @@
 
     <div>
         <div class="estilocaja">
-            <h1>CONTACTO</h1>
+            <section class="section-primary" id="contacto">
+                <h1>CONTACTO</h1>
         </div>
 
         <div id="containerRedes">
@@ -176,15 +192,15 @@
 
             <a href="https://www.instagram.com/alejandrowildlife"><img width="50" height="50"
                     src="https://i0.wp.com/betospizza.com.co/wp-content/uploads/2019/03/new-instagram-logo-png-transparent.png?fit=1455%2C1454&ssl=1"></a>
-            
-            <button type="button" class="btn">EMAIL</button>
+
+            <button onclick="window.print()" class="btn" type="button">IMPRIMIR CV</button>
 
 
 
-            
+
         </div>
     </div>
-
+    <script src="CVAlejandroBP.js"></script>
 </body>
 
 </html>
